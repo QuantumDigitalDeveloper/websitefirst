@@ -1,0 +1,134 @@
+/* ====== 1.8. How We Work section ====== */
+
+.work {
+  margin: 100px 0;
+}
+
+.how-we-work {
+  width: 90%;
+  border-radius: 45px;
+  object-fit: cover;
+}
+
+.work a {
+  position: absolute;
+  background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+  border-radius: 26px;
+  padding: 30px 44px !important;
+  bottom: -42px;
+  right: 0;
+}
+
+.work i {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 10px 10px 10px 13px;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.work h5 {
+  color: #d12bec;
+}
+
+.work h2 {
+  color: #000000;
+  margin: 10px 0;
+}
+
+.work p {
+  color: #000000;
+}
+
+.work .mt-4 {
+  background: #ffffff;
+  border: 1.5px solid #acacac;
+  border-radius: 40px;
+  padding: 35px 27px;
+  position: relative;
+  z-index: 1;
+}
+
+.work .mt-4:hover {
+  box-shadow: 0px 6px 30px rgba(172, 172, 172, 0.3);
+}
+
+.work h3 {
+  color: #000000;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.work .mt-4:hover h3 {
+  color: #ffffff;
+}
+
+.work .mt-4:hover p {
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.work .mt-4::before {
+  border-radius: 40px 40px 0 0;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 50%;
+  transition: all 0.3s ease-in;
+  background: #d12bec;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.work .mt-4:hover::before {
+  width: 100%;
+  background: #d12bec;
+}
+
+.work .mt-4::after {
+  border-radius: 0 0 40px 40px;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 50%;
+  transition: all 0.3s ease-in;
+  background: #d12bec;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+}
+
+.work .mt-4:hover::after {
+  width: 100%;
+  background: #d12bec;
+}
+
+.work .mt-4 h2 {
+  background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.work .mt-4:hover h2 {
+  -webkit-text-fill-color: #ffffff;
+}
+
+.work-cercle1 {
+  position: absolute;
+  width: 244px;
+  left: 33%;
+  top: 0;
+  z-index: -1;
+}
+
+.work-cercle2 {
+  position: absolute;
+  width: 300px;
+  right: 0px;
+  bottom: 7%;
+  z-index: -1;
+}
+
+/* ====== End of 1.8. How We Work section ====== */

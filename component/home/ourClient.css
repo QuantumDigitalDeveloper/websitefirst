@@ -1,0 +1,20 @@
+/* ====== 1.5. Our Clients section ====== */
+
+.client {
+  margin-bottom: 100px;
+}
+
+.client h5 {
+  color: #d12bec;
+}
+
+.client h2 {
+  color: #000000;
+  padding: 10px 190px 35px 190px;
+}
+
+.client img {
+  width: 130px;
+}
+
+/* ====== End of 1.5. Our Clients section ====== */

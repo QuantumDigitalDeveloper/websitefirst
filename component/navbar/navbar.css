@@ -1,0 +1,211 @@
+/* ====== 1.1. Header section ====== */
+nav {
+  padding: 23px 0 !important;
+  z-index: 10;
+}
+
+nav img {
+  width: 100%;
+}
+
+nav li a {
+  color: #ffffff !important;
+}
+
+nav li a.active {
+  color: #d12bec !important;
+  background-color: inherit !important;
+}
+
+nav li a:hover {
+  color: #d12bec !important;
+  transition: 500ms;
+}
+
+.header_home {
+  background: linear-gradient(
+    67.94deg,
+    #030b20 -2.93%,
+    #0d0d2a 44.88%,
+    #230d2b 99.07%,
+    #d12bec 148.49%
+  );
+  position: relative;
+}
+
+nav .btn_hover a:hover {
+  color: #ffffff !important;
+}
+
+.navbar .nav-item .dropdown-menu {
+  display: none;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  width: 220px;
+  padding: 15px 0px 15px 0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-left: -92px;
+}
+
+.dropdown-toggle::after {
+  vertical-align: middle;
+  content: "+";
+  border: none;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: white !important;
+  background-color: inherit;
+}
+
+.dropdown-menu a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: #000000 !important;
+}
+
+.dropdown-menu .dropdown-item::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  transition: all 0.3s ease-in;
+  background: #d12bec;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.dropdown-menu .dropdown-item:hover::before {
+  width: 100%;
+  background: #d12bec;
+}
+
+.navbar-toggler {
+  background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+  padding: 10px 20px;
+  color: #ffffff;
+  border: 1.5px solid #d12bec;
+  border-radius: 0.25rem;
+}
+
+.navbar-toggler:hover {
+  background: inherit;
+}
+
+aside {
+  background-color: inherit;
+  background-color: #070b24;
+  z-index: 10;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.sidebar img {
+  width: 100%;
+}
+
+.sidebar button {
+  width: 44px;
+  height: 35px;
+  background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+  padding: 7px 12px 10px 12px;
+  margin-bottom: -15px;
+  border-radius: 0.25em;
+  border: 1.5px solid #d12bec;
+  color: #ffffff;
+}
+
+.sidebar button:hover {
+  background: inherit;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+aside ul li {
+  margin: 5px 0;
+}
+
+aside li a {
+  color: #ffffff !important;
+  transition: 500ms;
+  padding: 10px 0 !important;
+}
+
+aside li a.active {
+  color: #d12bec !important;
+}
+
+aside li a:hover {
+  color: #d12bec !important;
+  transition: 500ms;
+}
+
+.dropdown-item:active {
+  background-color: white;
+}
+
+.collapse_btn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.collapse_btn i {
+  border: 1px solid #ffffff;
+  padding: 7px 8px;
+  border-radius: 40px;
+}
+
+.collapse_btn i:hover {
+  border: 1px solid #d12bec;
+}
+
+.plus_collapse {
+  margin: -52px 0px 0 0;
+  height: 45px;
+}
+
+aside .pages {
+  font-weight: 500;
+  color: white;
+  margin: 11px 0 7px 0;
+}
+
+.sidepanel {
+  width: 320px;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: -320px;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 40px 20px 20px 20px;
+}
+
+.sidepanel::-webkit-scrollbar {
+  width: 3px;
+}
+
+.sidepanel::-webkit-scrollbar-thumb {
+  background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+  border-radius: 10px;
+}
+
+/* ====== End of 1.1. Header section ====== */

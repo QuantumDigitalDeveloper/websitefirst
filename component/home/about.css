@@ -1,0 +1,106 @@
+/* ====== 1.4. About Us section ====== */
+
+.about {
+  margin: 100px 0;
+  position: relative;
+}
+
+.about h5 {
+  color: #d12bec;
+}
+
+.about h2 {
+  color: #000000;
+  margin: 10px 0;
+}
+
+.about p {
+  color: #000000;
+  padding-right: 30px;
+}
+
+.about h3 {
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.about a {
+  color: #d12bec;
+}
+
+.about .col-lg-3 h2 {
+  background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn_hover2 {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 1.5px solid #d12bec;
+  color: #ffffff !important;
+  z-index: 1;
+  background: linear-gradient(66.75deg, #00a5cf 0.87%, #d12bec 100%);
+}
+
+.btn_hover2:hover {
+  color: #d12bec !important;
+}
+
+.btn_hover2::before {
+  border-radius: 50px 50px 0 0;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 50%;
+  transition: all 0.3s ease-in;
+  background: #ffffff;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.btn_hover2:hover::before {
+  width: 100%;
+  background: #ffffff;
+}
+
+.btn_hover2::after {
+  border-radius: 0 0 50px 50px;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 50%;
+  transition: all 0.3s ease-in;
+  background: #ffffff;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+}
+
+.btn_hover2:hover::after {
+  width: 100%;
+  background: #ffffff;
+}
+
+.ab-image {
+  width: 100%;
+}
+
+.about-cercle1 {
+  position: absolute;
+  width: 228px;
+  left: 400px;
+  top: -63px;
+}
+
+.about-cercle2 {
+  position: absolute;
+  width: 284px;
+  right: 0;
+  bottom: -105px;
+}
+
+/* ====== End of 1.4. About Us section ====== */

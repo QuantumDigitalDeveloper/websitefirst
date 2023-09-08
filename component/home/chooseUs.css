@@ -1,0 +1,61 @@
+/* ====== 1.6. Why Choose Us section ====== */
+
+.choose {
+  background: linear-gradient(
+    67.94deg,
+    #030b20 -2.93%,
+    #0d0d2a 44.88%,
+    #230d2b 99.07%,
+    #d12bec 148.49%
+  );
+  padding: 100px 0;
+  position: relative;
+}
+
+.choose h5 {
+  color: #d12bec;
+}
+
+.choose h2 {
+  color: #ffffff;
+}
+
+.choose p {
+  color: #ffffff;
+}
+
+.chose-cercle1 {
+  position: absolute;
+  width: 160px;
+  bottom: 97px;
+  left: 12px;
+}
+
+.chose-cercle2 {
+  position: absolute;
+  width: 160px;
+  right: 39px;
+  top: 263px;
+}
+
+.choose h3 {
+  color: #ffffff;
+}
+
+.choose2 {
+  background-color: #5c5cce85;
+  border-radius: 70px;
+  padding: 66px 36px;
+  width: 100%;
+}
+
+.choose2 img {
+  width: 70px;
+}
+
+.choose2 img:hover {
+  position: relative;
+  animation: icon 0.5s 2;
+}
+
+/* ====== End of 1.6. Why Choose Us section ====== */
